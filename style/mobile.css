@@ -1,0 +1,150 @@
+@media screen and (min-device-pixel-radio: 2) and (max-width:767px),
+screen and (min-resolution: 192dpi) and (max-width:767px),
+screen and (min-resolution: 2dppx) and (max-width:767px) {
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_mobile@2x.jpg);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mobile-link{
+        display: none;
+    }
+    .mobile-menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        top: 0px;
+        left: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: #FFFFFF;
+        transition: opacity var(--transition-duration-and-timing-function), visibility var(--transition-duration-and-timing-function);
+        overflow: scroll;
+    }
+
+
+    .mobile-menu.is-open {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+
+
+    .container-mobile-menu {
+        height: 100vh;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .number-link {
+        font-size: 28px;
+
+    }
+
+    .button-model-mobile-menu {
+        position: absolute;
+        top: 24px;
+        right: 16px;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .button-model-mobile-menu:focus {
+        background-color: #FFFFFF;
+        border: none;
+        outline: none;
+    }
+
+    .icon-social-list-mobile-menu {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .page-header-nav{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    
+    .nav-link-header{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+    }
+    .current::after{
+        display: none;
+    }
+
+    .number-link{
+        display: block;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 1.1;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .mail-link{
+        display: block;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 48px;
+    }
+
+    .list-social-icon{
+        gap: 56px;
+    }
+
+
+}
+@media screen and (min-width:480px) {
+    .container {
+        width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal {
+        width: 392px;
+        height: 586px;
+   
+    }
+
+    .model-policy {
+        font-size: 12px;
+        flex-wrap: nowrap;
+    }
+    .modal-form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 72px;
+        padding-bottom: 24px;
+        padding-left: 14px;
+        padding-right: 14px;
+
+    }
+
+    .list-customers{
+        gap: 16px;
+    }
+
+    .list-customer-links{
+        width: 190px;
+        height: 88px;
+    }
+    .number-link {
+        font-size: 36px;
+       
+    }
+}

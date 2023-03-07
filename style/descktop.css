@@ -1,0 +1,122 @@
+
+@media screen and (min-width:1200px) {
+   
+    .container {
+        width: 1160px;
+    }
+    .box-contact-link{
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .contact-link{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people_office_desktop.jpg");
+    }
+    .section-characteristic {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .child-box-characteristic {
+        width: 264px;
+    }
+
+    .title-haracteristic{
+        font-size: 20px;
+        line-height: 1.2; 
+    }
+    
+    .content-characteristic{
+        font-weight: 400;
+    
+    }
+    .box-icon-characteristic {
+
+        width: 264px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        height: 112px;
+        background: #F4F4FD;
+        border-radius: 4px;
+    }
+
+    .section-title {
+        background-size: 1440px 603px;
+        padding-bottom: 188px;
+        padding-top: 188px;
+    }
+
+    .section-doing {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+    .box-photo-doing {
+        display: flex;
+    }
+
+    .child-box-photo-doing:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    .box-doing {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .title-doing {
+        color: var(--color-text-primary);
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 72px;
+        text-align: center;
+    }
+
+    .section-ourteam {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .box-block-our-team{
+        row-gap: 0;
+    }
+
+    .section-customers{
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+
+    .list-customer-links{
+        width: 168px;
+    }
+
+    /* =====FOOTER====== */
+    
+    .list-footer{
+        width: 100%;
+        justify-content:space-between;
+        column-gap: 0;
+    }
+    
+    /* =====/FOOTER====== */
+    
+}
+
+@media screen and (min-device-pixel-radio: 2) and (min-width:1200px),
+screen and (min-resolution: 192dpi) and (min-width:1200px),
+screen and (min-resolution: 2dppx) and (min-width:1200px) {
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people_office_desktop@2x.jpg);
+        
+    }
+}
+
