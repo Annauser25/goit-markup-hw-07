@@ -10,6 +10,10 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     .mobile-link{
         display: none;
     }
+    .header{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .mobile-menu {
         position: fixed;
         width: 100%;
@@ -81,6 +85,12 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
+        color: var(--color-text-primary);
+    }
+
+    .current {
+        position: relative;
+        color: var(--color-text-hover-link);
     }
     .current::after{
         display: none;
@@ -100,12 +110,27 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         line-height: 1.2;
         margin-bottom: 48px;
     }
-
-    .list-social-icon{
-        gap: 56px;
+    .list-social-icon-header{
+        display: flex;
+        gap: 37px;
+    }
+  
+    .logo-footer{
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .container-links-footer{
+        display: flex;
+        align-items: center;
+    }
 
+    .list-footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+                    
 }
 @media screen and (min-width:480px) {
     .container {
@@ -146,5 +171,10 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     .number-link {
         font-size: 36px;
        
+    }  
+    .list-social-icon-header{
+        display: flex;
+        gap: 56px;
+        justify-content: flex-start;
     }
 }
