@@ -69,10 +69,10 @@ body {
 /*header*/
 
 .header {
-    height: 70px;
+    /* height: 70px; */
     border-bottom: 1px solid #E7E9FC;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
    
    
 }
@@ -154,7 +154,7 @@ body {
     border-radius: 2px;
     background-color: var(--background-color-button-index);
     content: '';
-    transform:translateY(27px) ;
+    /* transform:translateY(27px) ; */
 }
 
 .box-contact-link{
@@ -471,11 +471,11 @@ fill: #F4F4FD;
    
 }
 
-.container-links-footer{
+/* .container-links-footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .list-icon-footer{
     display:flex;

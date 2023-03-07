@@ -5,8 +5,9 @@
             width: 768px;
     }
     .header{
-        padding-top: 24px;
-        padding-bottom: 12px;
+        /* padding-top: 24px;
+        padding-bottom: 12px; */
+        height: auto;
     }
     .contact-link{
         font-weight: 400;
@@ -15,9 +16,15 @@
         letter-spacing: 0.04em;
     }
     .box-nav-link{
+       gap: 40px;
+    }
+    .nav-header{
         margin-left: 123px;
-        margin-right: 118px;
-        gap: 40px;
+        margin-right: 118px; 
+    }
+    .nav-link{
+        display: block;
+        padding: 24px 0;
     }
 
     .box-contact-link{
@@ -92,6 +99,9 @@
         row-gap: 72px;
         column-gap: 24px;
         
+    }
+    .list-customer-links {
+        width: 168px;
     }
     /* ============/section-customer======== */
 /* ============footer======== */
